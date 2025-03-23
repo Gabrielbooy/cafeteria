@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>cafeteria do boy</title>
+</head>
+<body>
+
+    <header>
+        <section>
+            <a href="#">
+            <img src="/img/logo.png" alt="logo">
+            </a>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Sobre</a>
+                <a href="#" onclick="mostrarmodal()">endereço</a>
+            </nav>
+        </section>
+    </header>
+   
+    <section class="caixa-principal">
+        <div>
+            <h3>Code com o melhor café da regiao</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptas dolorum tempore facere et quod repudiandae, quas velit! A ullam necessitatibus labore quo qui maxime at, hic beatae repellat fugit?</p>
+            <a class="botao">pague o seu agora</a>
+        </div>
+    </section>    
+    
+
+    <div class="caixa-video">
+        <video src="/videos/coffe.mp4" autoplay muted loop ></video>
+        <div class="mascara"></div>
+    </div>
+
+    <section class="caixa-sobre">
+        <h2 class="titulo"> <span>sobre</span> nós</h2>
+        <div class="sobre-container">
+            <div class="sobre-imagem">
+                <img src="/img/about-img.jpeg">
+            </div>
+
+            <div class="sobre-texto">
+                <h4>O que faz nosso café especial</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores repudiandae ullam saepe adipisci praesentium voluptas voluptatibus necessitatibus similique, quo odit, dicta iste molestiae voluptates corporis. Quia corrupti esse repellendus optio.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, deserunt? Nisi beatae accusamus quaerat eius architecto cumque. Esse et repellat ipsam quis autem, aliquam vero velit expedita, aliquid debitis sunt.</p>
+                <a class="botao">Saiba mais</a>
+            </div>
+
+        </div>
+    </section>
+ 
+    <div class="modal">
+        <h3 class="titulo"> <span>nosso</span> endereço</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.0120362445655!2d-46.682157824668515!3d-23.603901278770632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce575915e00611%3A0xb733220ca5fec6a6!2sCaf%C3%A9%20Photo%20%7C%20Casa%20Noturna%20e%20Restaurante%20de%20Alto%20Padr%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1739205880891!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div> 
+
+    <div class="mascara-modal" onclick="escondermodal()">
+
+    </div>
+    <script src="/scripts.js"></script>
+    
+</body>
+</html>
